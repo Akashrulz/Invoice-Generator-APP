@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:src="@drawable/i4113" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="260dp"
+                android:fontFamily="serif"
+                android:text="T CONNECTOR"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_marginTop="290dp"
+                android:src="@drawable/i4153" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="574.5dp"
+                android:fontFamily="serif"
+                android:text="SPEAKER GRILL"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_marginTop="630dp"
+                android:src="@drawable/i4117" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="970dp"
+                android:fontFamily="serif"
+                android:text="GLASS HOLDER"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_marginTop="1030dp"
+                android:src="@drawable/i4104" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1380dp"
+                android:fontFamily="serif"
+                android:text="   WHEEL"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_marginTop="1450dp"
+                android:src="@drawable/i4203" />
+
+            <TextView
+                android:id="@+id/last"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1800dp"
+                android:fontFamily="serif"
+                android:text="Y CONNECTOR"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

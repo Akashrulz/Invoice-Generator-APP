@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/checkBox"
+            android:layout_marginTop="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Item"
+            android:textSize="25sp"
+            />
+        <TextView
+            android:id="@+id/itemname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item Name"
+            android:layout_below="@+id/checkBox"
+            android:textSize="25sp"
+            android:layout_marginTop="25sp"
+            />
+        <Spinner
+            android:id="@+id/Spinner"
+            android:layout_below="@+id/checkBox"
+            android:layout_marginTop="32sp"
+            android:layout_marginLeft="8sp"
+            android:layout_toEndOf="@+id/itemname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Spinner>
+
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:textSize="25dp"
+            android:layout_below="@+id/itemname"
+            android:layout_marginTop="25sp"/>
+
+        <Spinner
+            android:id="@+id/Spinner1"
+            android:layout_below="@+id/Spinner"
+            android:layout_marginTop="35sp"
+            android:layout_marginLeft="8sp"
+            android:layout_toEndOf="@+id/quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Spinner>
+
+
+
+        <TextView
+            android:id="@+id/rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate"
+            android:textSize="25dp"
+            android:layout_below="@+id/quantity"
+            android:layout_marginTop="25sp"/>
+
+
+        <Spinner
+            android:id="@+id/Spinner2"
+            android:layout_below="@+id/Spinner1"
+            android:layout_marginTop="35sp"
+            android:layout_marginLeft="8sp"
+            android:layout_toEndOf="@+id/rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Spinner>
+
+
+
+
+
+
+        <Button
+            android:id="@+id/inext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:onClick="ADD"
+            android:layout_marginLeft="80sp"
+            android:layout_marginTop="500dp" />
+
+        <Button
+            android:id="@+id/inext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:onClick="Generate"
+            android:layout_marginLeft="180sp"
+            android:layout_marginTop="500dp" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

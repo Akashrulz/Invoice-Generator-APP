@@ -1,0 +1,120 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginTop="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+
+                <TextView
+                    android:id="@+id/abillno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="25sp"
+                    android:layout_weight="1"
+                    android:hint="Bill No."
+                    android:text="Bill No."
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="normal|bold"
+                    android:textSize="25sp"/>
+        <EditText
+            android:id="@+id/ebill"
+            android:layout_toEndOf="@+id/abillno"
+            android:layout_marginTop="25sp"
+            android:layout_marginLeft="50sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="bill no"
+            />
+
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_below="@+id/abillno"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="50sp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:text="Name : "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:textStyle="normal|bold"
+                    android:textSize="25sp"
+                    />
+
+                <EditText
+                    android:id="@+id/tname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="110sp"
+                    android:layout_marginLeft="50sp"
+                    android:layout_toEndOf="@+id/name"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_below="@+id/name"
+                    android:text="Address:"
+                    android:layout_marginTop="75sp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="normal|bold"
+                    android:textSize="25sp"/>
+
+                <EditText
+                    android:id="@+id/taddress"
+                    android:layout_toEndOf="@+id/address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="200sp"
+                    android:layout_marginLeft="50sp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+
+
+
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+
+                android:layout_marginLeft="150sp"
+               android:layout_marginTop="480sp"
+                android:layout_weight="1"
+
+
+                android:onClick="GENERATE"
+
+
+                android:text="Generate"
+                android:textColor="#FFFFFF"
+                android:textStyle="normal|bold" />
+    </RelativeLayout>
+
+
+
+</ScrollView>
